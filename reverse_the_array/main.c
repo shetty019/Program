@@ -14,7 +14,7 @@
 #include <stdio.h>
 #define MAX 20
 
-/*
+
 int reversearray(int arr[], int start, int end)
 {
     int i=start;
@@ -45,8 +45,8 @@ int main(){
         printf("%d ", arr[i]);
     }
     return 0;
-}*/
-
-int main(){
-    
 }
+
+// int main(){
+    
+// }
