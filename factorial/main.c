@@ -11,21 +11,21 @@
  * Created on July 8, 2018, 3:49 PM
  */
 
-#include <stdio.h>
+// Including header files
+#include <stdio.h>  
 #include <stdlib.h>
 
-/*
- * 
- */
+// Starting main function
 int main(int argc, char** argv) {
-    int i, n, fact=1;
+    int i, n, fact=1;   // initializing variables
+
     printf("Enter the number to get factorial: ");
-    scanf("%d", &n);
+    scanf("%d", &n);    // Taking inputs
+
     for(i=1;i<=n;i++){
-        fact = fact*i;
+        fact = fact*i;  // logic applied
     }
-    printf("%d ", fact);
+    printf("%d ", fact);    // printing output
 
     return 0;
 }
-
