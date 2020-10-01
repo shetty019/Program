@@ -17,7 +17,7 @@
 /*
  * 
  */
-int main(int argc, char** argv) {
+int main() {
     int i, n, fact=1;
     printf("Enter the number to get factorial: ");
     scanf("%d", &n);
